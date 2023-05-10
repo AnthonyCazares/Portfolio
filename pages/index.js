@@ -74,7 +74,7 @@ export default function Home() {
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
             
-            Hi 👋, this is my small portfolio website made with React & Tailwind where you can find my projects listed below.
+            Hi 👋, this is my small portfolio website made with React & Tailwind, where you can find my projects listed below 👇.
             </p>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
               <Image src={anthony} fill={true} style={{objectFit: "cover"}} />
