@@ -86,7 +86,34 @@ export default function Home() {
             
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
-            
+            <div className="basis-1/3 flex-1 group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
+              <Image
+                className="rounded-lg object-cover h-full w-full  transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
+                width={"100%"}
+                height={"100%"}
+                layout="responsive"
+                src={img8}
+              />
+              <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
+      <div class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+        <p class="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">Social media clone made with TypeScript, React, Nextjs</p>
+        <button class="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"><a href="https://github.com/AnthonyCazares/clon-redsocial"> Show on github</a></button>
+      </div>
+            </div>
+            <div className="basis-1/3 flex-1 group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
+              <Image
+                className="rounded-lg object-cover h-full w-full  transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
+                width={"100%"}
+                height={"100%"}
+                layout="responsive"
+                src={img7}
+              />
+              <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
+      <div class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+        <p class="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">Django CRUD</p>
+        <button class="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60"><a href="https://github.com/AnthonyCazares/djangocrud"> Show on github</a></button>
+      </div>
+            </div>
             <div className="basis-1/3 flex-1 group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
              
         
