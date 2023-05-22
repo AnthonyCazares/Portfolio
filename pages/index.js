@@ -15,6 +15,8 @@ import img3 from "../public/img3.png";
 import img4 from "../public/img4.png";
 import img5 from "../public/img5.png";
 import img6 from "../public/website4.png";
+import img7 from "../public/crud.png";
+import img8 from "../public/redsocial.png";
 
 
 export default function Home() {
